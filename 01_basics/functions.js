@@ -25,9 +25,53 @@ function add(num1,num2){
 
 
 
-function username(username){
-return `${username} just logged in`
-}
-console.log(username("shivangi"))
+// function username(username){
+// return `${username} just logged in`
+// }
+// console.log(username("shivangi"))
 
 // ()   karne par undefined aayega
+
+
+
+
+//***********************************************
+
+
+function calculatecartprice(val1,val2,...num1){
+    return num1
+}
+
+// console.log(calculatecartprice(200,400,300,500));
+
+//that ... is called rest operator it convert into an array
+
+
+const user={
+    username:"Shivangi",
+    id:199
+}
+
+function handleobject(anyobject){
+//console.log(`username is ${anyobject.username} and its id ${anyobject.id}`);
+}
+
+//handleobject(user)
+
+      //or
+
+handleobject({
+    username:"sam",
+    id:122
+})
+
+
+const myarray=[200,300,400]
+
+function returnarray(getarray){
+    return getarray[1]
+}
+
+// console.log(returnarray(myarray))
+
+console.log(returnarray([200,300,400,500]));
