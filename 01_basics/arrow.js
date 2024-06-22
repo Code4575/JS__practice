@@ -9,7 +9,7 @@ const user={
 
 }
 
-//   {}  ke ander ka content use karne ke liye thid=s use karenge 
+//   {}  ke ander ka content use karne ke liye this use karenge 
 /*{
     username: 'shivangi',
     price: 999,
@@ -27,7 +27,7 @@ const user={
 
 
 // function chai(){
-//     let username="shivangi"                 //with let it gives us indefined
+//     let username="shivangi"                 //with let it gives us undefined
 //     console.log(this.username)
 // }
 // chai()

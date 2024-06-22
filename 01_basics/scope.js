@@ -36,7 +36,7 @@ if(true){
 
 //console.log(name)
 
-//{} ke bahar ocnsole karne ka try karenge ko nahi hoga
+//{} ke bahar console karne ka try karenge ko nahi hoga
 
 
 
@@ -56,7 +56,7 @@ const addtwo=function addone(num){
     return num+1
 }
 
-//   isme nahi hui because hamne use ek particularconst m rakah hai
+//   isme nahi hui because hamne use ek particular const m rakah hai
 
 
 

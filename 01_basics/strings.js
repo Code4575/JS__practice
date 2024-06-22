@@ -22,4 +22,6 @@ const url="shivan@gmail%.com"
 
 // console.log(url.includes('%'))       btayeyega ki ye chiz isme h ya nahi   
 
-// console.log(url.split('-','5'))
+//console.log(url.split('-','5'))     //splits converts a string into an array
+
+
